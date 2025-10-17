@@ -479,23 +479,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matheus\\.nuget\\packages\\": {},
+    "C:\\Users\\Aluno_Tarde\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.API\\ProductClientHub.API.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno_Tarde\\Documents\\API-REST-Csharp\\ProductClientHub.API\\ProductClientHub.API.csproj",
       "projectName": "ProductClientHub.API",
-      "projectPath": "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.API\\ProductClientHub.API.csproj",
-      "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.API\\obj\\",
+      "projectPath": "C:\\Users\\Aluno_Tarde\\Documents\\API-REST-Csharp\\ProductClientHub.API\\ProductClientHub.API.csproj",
+      "packagesPath": "C:\\Users\\Aluno_Tarde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aluno_Tarde\\Documents\\API-REST-Csharp\\ProductClientHub.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aluno_Tarde\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -510,11 +510,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.Communication\\ProductClientHub.Communication.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.Communication\\ProductClientHub.Communication.csproj"
+            "C:\\Users\\Aluno_Tarde\\Documents\\API-REST-Csharp\\ProductClientHub.Communication\\ProductClientHub.Communication.csproj": {
+              "projectPath": "C:\\Users\\Aluno_Tarde\\Documents\\API-REST-Csharp\\ProductClientHub.Communication\\ProductClientHub.Communication.csproj"
             },
-            "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.Exceptions\\ProductClientHub.Exceptions.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.Exceptions\\ProductClientHub.Exceptions.csproj"
+            "C:\\Users\\Aluno_Tarde\\Documents\\API-REST-Csharp\\ProductClientHub.Exceptions\\ProductClientHub.Exceptions.csproj": {
+              "projectPath": "C:\\Users\\Aluno_Tarde\\Documents\\API-REST-Csharp\\ProductClientHub.Exceptions\\ProductClientHub.Exceptions.csproj"
             }
           }
         }
@@ -529,7 +529,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -559,7 +559,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
