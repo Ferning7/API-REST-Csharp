@@ -1,7 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using ProductClientHub.API.UseCases.Clients.Register;
 using ProductClientHub.Communication.Requests;
 using ProductClientHub.Communication.Responses;
+=======
+using ProductClientHub.Communication.Request;
+using ProductClientHub.Communication.Response;
+>>>>>>> 28c350db84e1c4286745f6bd609a9690343646f6
 
 namespace ProductClientHub.API.Controllers
 {
@@ -13,12 +18,16 @@ namespace ProductClientHub.API.Controllers
         [ProducesResponseType(typeof(ResponseClientJson), StatusCodes.Status201Created)]
         public IActionResult Register([FromBody] RequestClientJson request)
         {
+<<<<<<< HEAD
 
             var useCase = new RegisterClientUseCase();
 
             var response = useCase.Execute(request);
 
             return Created(string.Empty, response);
+=======
+            return Created();
+>>>>>>> 28c350db84e1c4286745f6bd609a9690343646f6
         }
 
         [HttpPut]
@@ -27,7 +36,7 @@ namespace ProductClientHub.API.Controllers
             return Ok();
         }
 
-        [HttpGet] 
+        [HttpGet]
         public IActionResult GetAll()
         {
             return Ok();
@@ -35,7 +44,7 @@ namespace ProductClientHub.API.Controllers
 
         [HttpGet]
         [Route("{id}")]
-        public IActionResult GetById(Guid id)
+        public IActionResult GetById([FromRoute]Guid id)
         {
             return Ok();
         }

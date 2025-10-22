@@ -12,5 +12,15 @@
     "C:\\Users\\Matheus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.API\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.API\\ProductClientHub.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Matheus\\source\\repos\\ProductClienthub\\ProductClientHub.API\\ProductClientHub.API.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

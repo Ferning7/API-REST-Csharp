@@ -9,6 +9,11 @@ namespace ProductClientHub.API.UseCases.Clients.Register
         {
             var validator = new RegisterClientValidator();
             var result = validator.Validate(request);
+
+            if (result.IsValid)
+            {
+
+            }
             
             return new ResponseClientJson();
         }

@@ -7,6 +7,7 @@ namespace ProductClientHub.API.UseCases.Clients.Register
     {
         public RegisterClientValidator()
         {
+            
             RuleFor(client => client.Name).NotEmpty().WithMessage("O nome não pode ser vazio.");
             RuleFor(client => client.Email).EmailAddress().WithMessage("O email deve ser válido.");
         }
