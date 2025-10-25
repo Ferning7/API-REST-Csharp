@@ -9,19 +9,28 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "ProductClientHub.Communication.Request.RequestClientJson",
+        "Type": "ProductClientHub.Communication.Requests.RequestClientJson",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ProductClientHub.Communication.Response.ResponseClientJson",
+        "Type": "ProductClientHub.Communication.Responses.ResponseClientJson",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 201
+      },
+      {
+        "Type": "ProductClientHub.Communication.Responses.ResponseErrorMessagesJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },

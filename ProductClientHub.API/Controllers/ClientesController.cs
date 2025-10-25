@@ -1,12 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-<<<<<<< HEAD
 using ProductClientHub.API.UseCases.Clients.Register;
 using ProductClientHub.Communication.Requests;
 using ProductClientHub.Communication.Responses;
-=======
-using ProductClientHub.Communication.Request;
-using ProductClientHub.Communication.Response;
->>>>>>> 28c350db84e1c4286745f6bd609a9690343646f6
+
 
 namespace ProductClientHub.API.Controllers
 {
@@ -16,18 +12,26 @@ namespace ProductClientHub.API.Controllers
     {
         [HttpPost]
         [ProducesResponseType(typeof(ResponseClientJson), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
         public IActionResult Register([FromBody] RequestClientJson request)
         {
-<<<<<<< HEAD
 
-            var useCase = new RegisterClientUseCase();
+            try
+            {
+                var useCase = new RegisterClientUseCase();
 
-            var response = useCase.Execute(request);
+                var response = useCase.Execute(request);
 
-            return Created(string.Empty, response);
-=======
-            return Created();
->>>>>>> 28c350db84e1c4286745f6bd609a9690343646f6
+                return Created(string.Empty, response); ;
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new ResponseErrorMessagesJson(ex.Message));
+            }
+            catch
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new ResponseErrorMessagesJson("ERRO DESCONHECIDO"));
+            }
         }
 
         [HttpPut]
@@ -44,7 +48,7 @@ namespace ProductClientHub.API.Controllers
 
         [HttpGet]
         [Route("{id}")]
-        public IActionResult GetById([FromRoute]Guid id)
+        public IActionResult GetById([FromRoute] Guid id)
         {
             return Ok();
         }

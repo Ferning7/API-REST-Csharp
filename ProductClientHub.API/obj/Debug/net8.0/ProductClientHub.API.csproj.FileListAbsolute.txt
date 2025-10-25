@@ -78,3 +78,5 @@ C:\Users\Aluno_Tarde\Documents\API-REST-Csharp\ProductClientHub.API\obj\Debug\ne
 C:\Users\Aluno_Tarde\Documents\API-REST-Csharp\ProductClientHub.API\obj\Debug\net8.0\ProductClientHub.API.pdb
 C:\Users\Aluno_Tarde\Documents\API-REST-Csharp\ProductClientHub.API\obj\Debug\net8.0\ProductClientHub.API.genruntimeconfig.cache
 C:\Users\Aluno_Tarde\Documents\API-REST-Csharp\ProductClientHub.API\obj\Debug\net8.0\ref\ProductClientHub.API.dll
+C:\Users\Matheus\source\repos\ProductClienthub\ProductClientHub.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Matheus\source\repos\ProductClienthub\ProductClientHub.API\obj\Debug\net8.0\ProductClientHub.API.sourcelink.json

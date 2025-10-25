@@ -21,3 +21,4 @@ C:\Users\Aluno_Tarde\Documents\API-REST-Csharp\ProductClientHub.Exceptions\obj\D
 C:\Users\Aluno_Tarde\Documents\API-REST-Csharp\ProductClientHub.Exceptions\obj\Debug\net8.0\refint\ProductClientHub.Exceptions.dll
 C:\Users\Aluno_Tarde\Documents\API-REST-Csharp\ProductClientHub.Exceptions\obj\Debug\net8.0\ProductClientHub.Exceptions.pdb
 C:\Users\Aluno_Tarde\Documents\API-REST-Csharp\ProductClientHub.Exceptions\obj\Debug\net8.0\ref\ProductClientHub.Exceptions.dll
+C:\Users\Matheus\source\repos\ProductClienthub\ProductClientHub.Exceptions\obj\Debug\net8.0\ProductClientHub.Exceptions.sourcelink.json
